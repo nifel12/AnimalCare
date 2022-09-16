@@ -1,0 +1,329 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+.grid{
+    background-color:0;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    gap:10px ;
+    overflow: hidden;
+    align-items: center;
+}
+.header{
+    background-color:0;
+    width: 100%;
+    grid-column: 1/-1;
+
+}
+
+
+
+
+
+
+img{
+    width: 100%;
+}
+.headercont{
+    position: relative;
+    z-index: 100;
+    grid-column: 1/-1;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color:0;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff98 ;
+
+}
+.logo{
+    font-weight: 900;
+    font-size: 35px;
+    margin: 10px;
+    font-family: Cambria;
+    color: rgba(255, 255, 255, 0.658);
+    grid-column: 1/1;
+
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu #item{
+    float: left;
+    
+}
+
+#menu #item a{
+    background-color:#8892c600;
+    color: rgb(8, 8, 8);
+    padding: 30px ;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    /*border-left: 1px solid #ffffff ;*/
+
+}
+#menu #desple{
+    display: none;
+}
+#menu #item a:hover{
+    background-color: #ffffff21;
+    color: #141e5891;
+    display: flex;
+    align-items: center;
+}
+
+#menu #item:hover #desple{
+display: block;
+}
+
+
+
+
+
+
+.banner{
+    height: 85vh;
+    width: 100%;
+    margin-top: -195px;
+    position: relative;
+    background: url(../imagenes/pexels-tima-miroshnichenko-6235653.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-attachment: fixed;
+    grid-column: 1/-1;
+
+}
+.bannerDes{
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.733);
+    
+    transform: translateX(-50%) translateY(-50%);
+    top:50%;
+    left: 50%;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 150px;
+    background-color: 0;
+
+
+}
+.botonBanner{
+    background: rgb(29, 27, 133);
+    border: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Cambria;
+    border-radius: 5px;
+}
+.botonBanner:hover{
+    border: 2px solid rgb(29, 27, 133);
+    background: none;
+    color:rgb(29, 27, 133);
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size:50px;
+    
+}
+/*codigo luis*/
+:root {
+  --white: #ffff;
+  --black: #000;
+  --very-light-pink: #5e5e5e;
+  --text-input-field: #f7f7f7;
+  --hospital-green: rgb(29, 27, 133);
+  /* --hospital-green: grey; */
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+body {
+  margin: 0%;
+  font-family: "Quicksand", sans-serif;
+}
+
+.login {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.form-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 300px;
+}
+/* 
+.logo {
+  width: 150px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  justify-self: center;
+  display: none;
+} */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+}
+.form a {
+  color: var(--hospital-green);
+  font-size: var(--sm);
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+.form2 a {
+  color: var(--hospital-green);
+  font-size: var(--sm);
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.label {
+  font-size: var(--sm);
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+.inputs {
+  background-color:rgba(145, 144, 144, 0.726) ;
+  border: none;
+  border-radius: 10px;
+  height: 15px;
+  font-size: var(--md);
+  padding: 10px;
+  margin-bottom: 12px;
+  width: 80%;
+  margin: auto;
+}
+.inputs2 {
+  background-color:rgba(212, 211, 211, 0.726) ;
+  border: none;
+  border-radius: 10px;
+  height: 15px;
+  font-size: var(--md);
+  padding: 10px;
+  margin-bottom: 12px;
+  width: 80%;
+  margin: auto;
+}
+.input-email {
+  margin-top: 5px;
+  margin-bottom: 23px;
+  padding: 8px;
+}
+#new-password {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.primary-button {
+  color: var(--white);
+  margin-top: 12px;
+  background-color: var(--hospital-green);
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  height: 35px;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
+  margin: auto;
+}
+.primary-button:hover{
+  color: #000;
+  transition: 1s;
+}
+ #forgot:hover{
+    color: #000;
+    transition: 0.5s;
+ }
+.secondary-button {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #0A122A;
+  color: grey;
+  width: 100%;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
+  height: 50px;
+  transition: 0.5s;
+}
+.secondary-button:hover{
+  color: #0A122A;
+  transition: 0.2s;
+  padding: 10px;
+  font-size: var(--lg);
+}
+
+.login-button {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+/*fin codigo luis*/
+
+
+
+
+@media screen and (max-width:800px){
+    
+   .logo{
+    font-size: 20px;
+  
+
+}
+    #menu #item a{
+        
+        font-size: 15px;
+        justify-content: center;
+
+    }
+    h1{
+        font-size:30px;
+    }
+    [class^="fas fa"]{
+        font-size: 25px;
+        }
+
+
+
+
+
+
+
+
+}
