@@ -2,8 +2,62 @@
 @model MascotaFeliz.App.Frontend.Pages.DetallesVeterinariosModel
 @{
 }
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/styleVeterinario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link
+href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
+rel="stylesheet"
+/>
+    <title>Document</title>
+</head>
+<body>
+  
 
-<h1>Detalles</h1>
+    <header class="header">
+        <div class="grid">
+        <div class="headercont">
+            <p class="logo"> ANIMAL CARE</p>
+                        <div id="menu">
+                            <ul>
+                                <!-- <li id="item"><a href="indexcatalogo.html">SEDES</a>
+                                    <ul id="desple">
+                                        <li><a href="indexcatalogo.html">BOGOTÁ</a></li>
+                                        <li><a href="indexcatalogo.html">MEDELLÍN</a></li>
+                                        <li><a href="indexcatalogo.html">CALI</a></li>
+                                    </ul>
+                                </li> -->
+                                <li id="item" ><a href="RegistroMascota.html">REGISTRO MASCOTA</a></li>
+                                <li id="item" ><a href="RegistroDueno.html">REGISTRO PROPIETARIO</a></li>
+                                
+                            <li id="item"><a href="indexingreso.html">
+                                <i class="fas fa-address-book"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+        </div>
+            <section class="banner">        
+                    <div class="bannerDes">
+                    <div class="contenedor">
+
+                        <h1>BIENVENIDO AL DETALLE DEL VETERINARIO</h1>
+                        <input type="button" value="Registrar" class="botonBanner">
+                    </div>
+                </div>
+            </section>
+</div>
+</header>
+
+
+
+<div class="login">
+    <h3>DETALLE VETERINARIO</h3>
+    
 
 <div> Id: @Model.veterinario.Id 
 </div>
@@ -23,4 +77,23 @@
 <div> Tarjeta Profesional: @Model.veterinario.TarjetaProfesional
 </div>
 
-<a asp-page="./ListaVeterinarios" class="btn-default">Lista Veterinarios </a>
+<a asp-page="./ListaVeterinarios" class="btn-default botonBanner">Lista Veterinarios </a>
+       
+
+    
+  </div>
+ 
+   
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
