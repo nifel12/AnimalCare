@@ -9,20 +9,20 @@ using MascotaFeliz.App.Persistencia;
 
 namespace MascotaFeliz.App.Frontend.Pages
 {
-    public class ListaDuenosModel : PageModel
+    public class ListaMascotasModel : PageModel
     {
-        private readonly IRepositorioDueno _repoDueno;
-        
-        public IEnumerable<Dueno> listaDuenos {get;set;} 
+        private readonly IRepositorioMascota _repoMascota;
 
-        public ListaDuenosModel()
+        public IEnumerable<Mascota> listaMascotas {get;set;} 
+
+        public ListaMascotasModel()
         {
-            this._repoDueno = new RepositorioDueno(new Persistencia.AppContext());
+            this._repoMascota = new RepositorioMascota(new Persistencia.AppContext());
         }
         
         public void OnGet()
         {
-            listaDuenos = _repoDueno.GetAllDuenos();
+            listaMascotas = _repoMascota.GetAllMascotas();
         }
     }
 }
