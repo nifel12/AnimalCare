@@ -143,8 +143,13 @@ rel="stylesheet"
             <td> <input type="text" name="tel" class="inputs2"value="@veterinario.Telefono"></td>
             <td> <input type="text" name="tel" class="inputs2"value="@veterinario.TarjetaProfesional"></td>
        
+<<<<<<< HEAD
             <td> <a type="button"   name="btnact" class="primary-button login-button" asp-page="./EditarVeterinarios" asp-route-veterinarioId="@veterinario.Id">Editar</a></td>
             <td> <a type="button"   name="btnact" class="primary-button login-button" asp-page="./DetallesVeterinarios" asp-route-veterinarioId="@veterinario.Id">Detalles</a></td>
+=======
+            <td> <button type="button"   name="btnact" class="botonBanner ">Editar</button></td>
+            <td> <a type="button"   name="btnact" class="botonBanner" asp-page="./DetallesVeterinarios" asp-route-veterinarioId="@veterinario.Id">Detalles</a></td>
+>>>>>>> 5b9c11247154814640e4cb6acc3e4fd4ad575b68
             <!-- <td> <button type="button"   name="btneli" class="primary-button login-button">Eliminar</button></td> -->
         
         </tr>
