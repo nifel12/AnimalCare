@@ -5738,27 +5738,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PERSONAL\\.nuget\\packages\\": {}
+    "C:\\Users\\nifer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Mascotas2\\MascotaFeliz.App\\MascotaFeliz.app.frontend\\MascotaFeliz.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.app.frontend\\MascotaFeliz.App.Frontend.csproj",
       "projectName": "MascotaFeliz.App.Frontend",
-      "projectPath": "C:\\Mascotas2\\MascotaFeliz.App\\MascotaFeliz.app.frontend\\MascotaFeliz.App.Frontend.csproj",
+      "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.app.frontend\\MascotaFeliz.App.Frontend.csproj",
       "packagesPath": "C:\\Users\\nifer\\.nuget\\packages\\",
-      "outputPath": "C:\\Mascotas2\\MascotaFeliz.App\\MascotaFeliz.app.frontend\\obj\\",
-=======
-      "projectUniqueName": "C:\\MascotasClon\\AnimalCare\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
-      "projectName": "MascotaFeliz.App.Frontend",
-      "projectPath": "C:\\MascotasClon\\AnimalCare\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
-      "outputPath": "C:\\MascotasClon\\AnimalCare\\MascotaFeliz.App.Frontend\\obj\\",
->>>>>>> 5b9c11247154814640e4cb6acc3e4fd4ad575b68
+      "outputPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.app.frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\nifer\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5769,19 +5761,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Mascotas2\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-              "projectPath": "C:\\Mascotas2\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
+            "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+              "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
             },
-            "C:\\Mascotas2\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
-              "projectPath": "C:\\Mascotas2\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
-=======
-            "C:\\MascotasClon\\AnimalCare\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-              "projectPath": "C:\\MascotasClon\\AnimalCare\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
-            },
-            "C:\\MascotasClon\\AnimalCare\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
-              "projectPath": "C:\\MascotasClon\\AnimalCare\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
->>>>>>> 5b9c11247154814640e4cb6acc3e4fd4ad575b68
+            "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
+              "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
             }
           }
         }
