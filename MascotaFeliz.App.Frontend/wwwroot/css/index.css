@@ -136,9 +136,9 @@ display: block;
     border-radius: 5px;
 }
 .botonBanner:hover{
-    border: 2px solid rgb(29, 27, 133);
+    border: 2px solid #141e58;
     background: none;
-    color:rgb(29, 27, 133);
+    color:#141e58;
 }
 h1{
     font-family: 'Bebas Neue', cursive;

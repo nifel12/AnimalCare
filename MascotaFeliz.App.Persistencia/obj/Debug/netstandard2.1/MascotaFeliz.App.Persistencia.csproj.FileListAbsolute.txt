@@ -34,3 +34,15 @@ C:\MascotasClon\animalcare\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.
 C:\MascotasClon\animalcare\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CopyComplete
 C:\MascotasClon\animalcare\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
 C:\MascotasClon\animalcare\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb
+C:\AnimalCare\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.deps.json
+C:\AnimalCare\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
+C:\AnimalCare\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb
+C:\AnimalCare\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.dll
+C:\AnimalCare\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.pdb
+C:\AnimalCare\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csprojAssemblyReference.cache
+C:\AnimalCare\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.AssemblyInfoInputs.cache
+C:\AnimalCare\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.AssemblyInfo.cs
+C:\AnimalCare\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\AnimalCare\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CopyComplete
+C:\AnimalCare\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
+C:\AnimalCare\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb

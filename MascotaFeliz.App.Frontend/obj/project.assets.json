@@ -5738,19 +5738,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PERSONAL\\.nuget\\packages\\": {}
+    "C:\\Users\\luisc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MascotasClon\\animalcare\\Mascotafeliz.app.frontend\\MascotaFeliz.App.Frontend.csproj",
+      "projectUniqueName": "C:\\AnimalCare\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
       "projectName": "MascotaFeliz.App.Frontend",
-      "projectPath": "C:\\MascotasClon\\animalcare\\Mascotafeliz.app.frontend\\MascotaFeliz.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
-      "outputPath": "C:\\MascotasClon\\animalcare\\Mascotafeliz.app.frontend\\obj\\",
+      "projectPath": "C:\\AnimalCare\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\luisc\\.nuget\\packages\\",
+      "outputPath": "C:\\AnimalCare\\MascotaFeliz.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\luisc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5761,11 +5761,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\MascotasClon\\animalcare\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-              "projectPath": "C:\\MascotasClon\\animalcare\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
+            "C:\\AnimalCare\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+              "projectPath": "C:\\AnimalCare\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
             },
-            "C:\\MascotasClon\\animalcare\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
-              "projectPath": "C:\\MascotasClon\\animalcare\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
+            "C:\\AnimalCare\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
+              "projectPath": "C:\\AnimalCare\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
             }
           }
         }
@@ -5796,7 +5796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
       }
     }
   }
