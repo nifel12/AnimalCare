@@ -1,4 +1,164 @@
 ﻿@page
 @model MascotaFeliz.App.Frontend.Pages.EditarDuenosModel
 @{
+    int duenoId = Model.dueno.Id;
 }
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/styleDueno.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+  
+
+    <header class="header">
+        <div class="grid">
+        <div class="headercont">
+            <p class="logo"><a asp-page="/Index"> ANIMAL CARE</a></p>
+                        <div id="menu">
+                            <ul>
+                              <!--   <li id="item"><a href="indexcatalogo.html">SEDES</a>
+                                    <ul id="desple">
+                                        <li><a href="indexcatalogo.html">BOGOTÁ</a></li>
+                                        <li><a href="indexcatalogo.html">MEDELLÍN</a></li>
+                                        <li><a href="indexcatalogo.html">CALI</a></li>
+                                    </ul>
+                                </li> -->
+                                <li id="item" ><a href="RegistroVeterinario.html">REGISTRO VETERINARIO</a></li>
+                                <li id="item" ><a href="RegistroMascota.html">REGISTRO MASCOTA</a></li>
+                                
+                            <li id="item"><a href="indexingreso.html">
+                                <i class="fas fa-address-book"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+        </div>
+            <section class="banner">        
+                    <div class="bannerDes">
+                    <div class="contenedor">
+
+                        <h1>BIENVENIDO AL REGISTRO DEL PROPIETARIO</h1>
+                        
+                    </div>
+                </div>
+            </section>
+</div>
+</header>
+
+
+
+
+
+<div class="login">
+<h2> REGISTRAR DUEÑO </h2>
+<form method="post" >
+    <div class="form-group">
+        <input type="hidden" asp-for = "dueno.Id" />
+        <label asp-for="dueno.Nombres"></label>
+        <input asp-for="dueno.Nombres" class="form-control">
+        <label asp-for="dueno.Apellidos"></label>
+        <input asp-for="dueno.Apellidos" class="form-control">
+        <label asp-for="dueno.Direccion"></label>
+        <input asp-for="dueno.Direccion" class="form-control">
+        <label asp-for="dueno.Telefono"></label>
+        <input asp-for="dueno.Telefono" class="form-control">
+        <label asp-for="dueno.Correo"></label>
+        <input asp-for="dueno.Correo" class="form-control">
+
+
+        <button type="submit" class="btn btn-primary">Grabar</button>
+    </div>
+
+</form>
+</div>
+
+<a asp-page="./ListaDuenos" class="btn-default"> Lista de los Dueños </a>
+
+</body>
+
+
+
+
+
+<!-- 
+
+<div class="login">
+    <h3>REGISTRAR DUEÑO</h3>
+
+    
+    <form class="form">
+    
+      <label for="identificacion" class="label">IDENTIFICACIÓN</label>
+      <input
+       
+        
+        class="inputs"
+        asp-for="dueno.Id"
+      />
+    <label for="name" class="label">NOMBRES</label>
+      <input
+        
+        
+        class="inputs"
+        asp-for="dueno.Nombres"
+      />
+
+      <label for="apellidos" class="label">APELLIDOS</label>
+      <input
+       
+        
+        class="inputs"
+        asp-for="dueno.Apellidos"
+      />
+
+      
+
+      <label for="direccion" class="label">DIRECCIÓN</label>
+      <input
+       
+        
+        class="inputs"
+        asp-for="dueno.Direccion"
+      />
+
+      <label for="telefono" class="label">TELÉFONO</label>
+      <input
+       
+        
+        class="inputs"
+        asp-for="dueno.Telefono"
+      />
+      
+        <label for="email" class="label">EMAIL</label>
+        <input
+          
+          
+          class="inputs"
+          asp-for="dueno.Correo"
+        />
+
+     
+        <button type="submit" class="primary-button login-button">Grabar</button>
+    
+      </form>
+    
+     
+    </div>
+-->
+
+
+

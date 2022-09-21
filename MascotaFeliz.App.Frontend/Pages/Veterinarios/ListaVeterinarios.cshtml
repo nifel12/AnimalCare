@@ -23,7 +23,7 @@ rel="stylesheet"
     <header class="header">
         <div class="grid">
         <div class="headercont">
-            <p class="logo"> ANIMAL CARE</p>
+            <p class="logo"><a asp-page="/Index"> ANIMAL CARE</a></p>
                         <div id="menu">
                             <ul>
                                 <!-- <li id="item"><a href="indexcatalogo.html">SEDES</a>
@@ -54,7 +54,7 @@ rel="stylesheet"
 </div>
 </header>
 
-
+<!-- 
 
 <div class="login">
     <h3>REGISTRAR VETERINARIO</h3>
@@ -116,9 +116,9 @@ rel="stylesheet"
 
     
   </div>
-  <form action="" method="GET" class="form2">
-    <div class="conttabla">
-        
+  
+-->    
+ 
    <table>
     <thead>
         <tr>
@@ -130,7 +130,7 @@ rel="stylesheet"
             <th>Tarjeta Profesional</th>
         </tr>
     </thead>
-    <tbody>
+    
 
         @foreach (var veterinario in Model.listaVeterinarios)
         {
@@ -143,23 +143,16 @@ rel="stylesheet"
             <td> <input type="text" name="tel" class="inputs2"value="@veterinario.Telefono"></td>
             <td> <input type="text" name="tel" class="inputs2"value="@veterinario.TarjetaProfesional"></td>
        
-            <td> <button type="button"   name="btnact" class="botonBanner ">Editar</button></td>
-            <td> <a type="button"   name="btnact" class="botonBanner" asp-page="./DetallesVeterinarios" asp-route-veterinarioId="@veterinario.Id">Detalles</a></td>
+            <td> <a type="button"   name="btnact" class="primary-button login-button" asp-page="./EditarVeterinarios" asp-route-veterinarioId="@veterinario.Id">Editar</a></td>
+            <td> <a type="button"   name="btnact" class="primary-button login-button" asp-page="./DetallesVeterinarios" asp-route-veterinarioId="@veterinario.Id">Detalles</a></td>
             <!-- <td> <button type="button"   name="btneli" class="primary-button login-button">Eliminar</button></td> -->
         
         </tr>
         }
       
-    </tbody>
-</table>
-    </div>
-</form>
- 
-
-
-
-
-
-   
     
+</table>
+    
+<a class = "btn btn-primary table-btn" asp-page="./EditarVeterinarios" class="btn-default">Adicionar Veterinario</a>
+ 
 </body>
