@@ -13,15 +13,21 @@ namespace MascotaFeliz.App.Frontend.Pages
     {
 
         private readonly IRepositorioMascota _repoMascota;
+        
+        
+        
         public Mascota mascota {get;set;}
         public DetallesMascotasModel()
         {
             this._repoMascota = new RepositorioMascota (new Persistencia.AppContext());
+        
         }
+        
 
         public IActionResult OnGet(int mascotaId)
         {
             mascota = _repoMascota.GetMascota(mascotaId);
+            
             if (mascota == null)
             {
                 return RedirectToPage(".NotFound");
