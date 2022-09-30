@@ -30,6 +30,7 @@ namespace MascotaFeliz.App.Consola
             //ListarMascotas();
             //ListarDuenos();
             //ListarVeterinarios();
+            ListarDuenosFiltro();
         }
 
         private static void AddDueno()
@@ -88,6 +89,16 @@ namespace MascotaFeliz.App.Consola
         {
             var dueno = _repoDueno.GetDueno(idDueno);
             Console.WriteLine(dueno.Nombres + " " + dueno.Apellidos + " " + dueno.Direccion + " " + dueno.Telefono + " " + dueno.Correo);
+        }
+
+        private static void ListarDuenosFiltro()
+        {
+            var duenosM = _repoDueno.GetDuenosPorFiltro("Ram");
+            foreach (Dueno p in duenosM)
+            {
+                Console.WriteLine(p.Nombres + " " + p.Apellidos);
+            }
+
         }
 
         private static void BuscarVeterinario(int idVeterinario)
