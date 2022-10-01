@@ -33,8 +33,8 @@ rel="stylesheet"
                                         <li><a href="indexcatalogo.html">CALI</a></li>
                                     </ul>
                                 </li> -->
-                                <li id="item" ><a href="RegistroMascota.html">REGISTRO MASCOTA</a></li>
-                                <li id="item" ><a href="RegistroDueno.html">REGISTRO PROPIETARIO</a></li>
+                                <li id="item" ><a asp-page="/Mascotas/ListaMascotas">REGISTRO MASCOTA</a></li>
+                                <li id="item" ><a asp-page="/Duenos/ListaDuenos">REGISTRO PROPIETARIO</a></li>
                                 
                             <li id="item"><a href="indexingreso.html">
                                 <i class="fas fa-address-book"></i>
@@ -47,7 +47,8 @@ rel="stylesheet"
                     <div class="contenedor">
 
                         <h1>BIENVENIDO AL REGISTRO DEL VETERINARIO</h1>
-                        <input type="button" value="Registrar" class="botonBanner">
+                        <a class = "botonBanner" asp-page="./EditarVeterinarios" >Adicionar Veterinario</a>
+                        @* <input type="button" value="Registrar" class="botonBanner"> *@
                     </div>
                 </div>
             </section>
@@ -55,41 +56,35 @@ rel="stylesheet"
 </header>
 
 <!-- 
-
 <div class="login">
     <h3>REGISTRAR VETERINARIO</h3>
     
         <form action="/" class="form">
      
-
       <label for="name" class="label">NOMBRES</label>
       <input
         type="text"
         id="name"
         class="inputs"
       />
-
       <label for="apellidos" class="label">APELLIDOS</label>
       <input
        type="text"
         id="apellidos"
         class="inputs"
       />
-
       <label for="identificacion" class="label">IDENTIFICACIÓN</label>
       <input
        type="text"
         id="identificacion"
         class="inputs"
       />
-
       <label for="direccion" class="label">DIRECCIÓN</label>
       <input
        type="text"
         id="direccion"
         class="inputs"
       />
-
       <label for="telefono" class="label">TELÉFONO</label>
       <input
        type="text"
@@ -103,9 +98,7 @@ rel="stylesheet"
           id="`tp"
           class="inputs"
         />
-
      
-
         <input
           type="submit"
           value="REGISTRAR"
@@ -113,7 +106,6 @@ rel="stylesheet"
         />
        
       </form>
-
     
   </div>
   
@@ -153,6 +145,6 @@ rel="stylesheet"
     
 </table>
     
-<a class = "btn btn-primary table-btn" asp-page="./EditarVeterinarios" class="btn-default">Adicionar Veterinario</a>
+@* <a class = "btn btn-primary table-btn" asp-page="./EditarVeterinarios" class="btn-default">Adicionar Veterinario</a> *@
  
 </body>
