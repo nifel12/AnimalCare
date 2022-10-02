@@ -358,3 +358,6 @@ C:\AnimalCare\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\
 C:\AnimalCare\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.dll
 C:\AnimalCare\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.pdb
 C:\AnimalCare\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.genruntimeconfig.cache
+C:\Mascotasclon\animalcare\Mascotafeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriaClinica\DetallesHistoria.cshtml.g.cs
+C:\Mascotasclon\animalcare\Mascotafeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriaClinica\EditarHistoria.cshtml.g.cs
+C:\Mascotasclon\animalcare\Mascotafeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriaClinica\ListaHistoria.cshtml.g.cs

@@ -1,0 +1,88 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.EditarHistoriaModel
+@{
+}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/styleHistoria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link
+href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
+rel="stylesheet"
+/>
+    <title>Document</title>
+</head>
+<body>
+  
+
+    <header class="header">
+        <div class="grid">
+        <div class="headercont">
+            <p class="logo"><a asp-page="/Index"> ANIMAL CARE</a></p>
+                        <div id="menu">
+                            <ul>
+                                <!-- <li id="item"><a href="indexcatalogo.html">SEDES</a>
+                                    <ul id="desple">
+                                        <li><a href="indexcatalogo.html">BOGOTÁ</a></li>
+                                        <li><a href="indexcatalogo.html">MEDELLÍN</a></li>
+                                        <li><a href="indexcatalogo.html">CALI</a></li>
+                                    </ul>
+                                </li> -->
+                                 <li id="item" ><a asp-page="/Mascotas/ListaMascotas">REGISTRO MASCOTA</a></li>
+                                <li id="item" ><a asp-page="/Duenos/ListaDuenos">REGISTRO PROPIETARIO</a></li>
+                                                                <li id="item" ><a asp-page="/Veterinarios/ListaVeterinarios">REGISTRO VETERINARIO</a></li>
+
+                            <li id="item"><a href="indexingreso.html">
+                                <i class="fas fa-address-book"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+        </div>
+            <section class="banner">        
+                    <div class="bannerDes">
+                    <div class="contenedor">
+
+                        <h1>BIENVENIDO AL REGISTRO DE LA HISTORIA</h1>
+                        <a asp-page="./ListaVeterinarios" class="botonBanner"> Lista de las Historias Clinicas </a>
+                        @* <input type="button" value="Registrar" class="botonBanner"> *@
+                    </div>
+                </div>
+            </section>
+</div>
+</header>
+
+
+
+<div class="login">
+<h1> REGISTRAR HISTORIA CLINICA </h1>
+
+
+
+
+<form method="post" class="form">
+    
+        @* <input type="hidden" asp-for = "veterinario.Id" />
+        <label asp-for="veterinario.Nombres" class="label"></label>
+        <input asp-for="veterinario.Nombres" class="inputs">
+        <label asp-for="veterinario.Apellidos" class="label"></label>
+        <input asp-for="veterinario.Apellidos" class="inputs">
+        <label asp-for="veterinario.Direccion" class="label"></label>
+        <input asp-for="veterinario.Direccion" class="inputs">
+        <label asp-for="veterinario.Telefono" class="label"></label>
+        <input asp-for="veterinario.Telefono" class="inputs">
+        <label asp-for="veterinario.TarjetaProfesional" class="label"></label>
+        <input asp-for="veterinario.TarjetaProfesional" class="inputs">
+
+
+        <button type="submit" class="primary-button login-button">Guardar</button> *@
+  
+
+</form>
+</div>
+
+@* <a asp-page="./ListaVeterinarios" class="btn-default"> Lista de los Veterinarios </a> *@
+</body>
