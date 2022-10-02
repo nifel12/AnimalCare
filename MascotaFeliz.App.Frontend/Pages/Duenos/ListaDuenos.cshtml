@@ -37,8 +37,8 @@
                                         <li><a href="indexcatalogo.html">CALI</a></li>
                                     </ul>
                                 </li> -->
-                                <li id="item" ><a href="RegistroVeterinario.html">REGISTRO VETERINARIO</a></li>
-                                <li id="item" ><a href="RegistroMascota.html">REGISTRO MASCOTA</a></li>
+                                 <li id="item" ><a asp-page="/Veterinarios/ListaVeterinarios">REGISTRO VETERINARIO</a></li>
+                                <li id="item" ><a asp-page="/Mascotas/ListaMascotas">REGISTRO MASCOTA</a></li>
                                 
                             <li id="item"><a href="indexingreso.html">
                                 <i class="fas fa-address-book"></i>
@@ -51,7 +51,9 @@
                     <div class="contenedor">
 
                         <h1>BIENVENIDO AL REGISTRO DEL PROPIETARIO</h1>
-                        <input type="button" value="Registrar" class="botonBanner">
+                          <a class = "botonBanner" asp-page="./EditarDuenos" >Adicionar Dueño</a>
+@* 
+                        <input type="button" value="Registrar" class="botonBanner"> *@
                     </div>
                 </div>
             </section>
@@ -166,7 +168,7 @@
       
   </table>
 
-  <a class = "btn btn-primary table-btn" asp-page="./EditarDuenos" class="btn-default">Adicionar Dueño</a>
+  @* <a class = "btn btn-primary table-btn" asp-page="./EditarDuenos" class="btn-default">Adicionar Dueño</a> *@
       
   
   

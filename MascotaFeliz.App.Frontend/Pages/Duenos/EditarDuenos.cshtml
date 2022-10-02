@@ -38,8 +38,8 @@
                                         <li><a href="indexcatalogo.html">CALI</a></li>
                                     </ul>
                                 </li> -->
-                                <li id="item" ><a href="RegistroVeterinario.html">REGISTRO VETERINARIO</a></li>
-                                <li id="item" ><a href="RegistroMascota.html">REGISTRO MASCOTA</a></li>
+                                 <li id="item" ><a asp-page="/Veterinarios/ListaVeterinarios">REGISTRO VETERINARIO</a></li>
+                                <li id="item" ><a asp-page="/Mascotas/ListaMascotas">REGISTRO MASCOTA</a></li>
                                 
                             <li id="item"><a href="indexingreso.html">
                                 <i class="fas fa-address-book"></i>
@@ -52,7 +52,8 @@
                     <div class="contenedor">
 
                         <h1>BIENVENIDO AL REGISTRO DEL PROPIETARIO</h1>
-                        
+                        <a asp-page="./ListaDuenos" class="botonBanner"> Lista de los Dueños </a>
+
                     </div>
                 </div>
             </section>
@@ -65,28 +66,27 @@
 
 <div class="login">
 <h2> REGISTRAR DUEÑO </h2>
-<form method="post" >
-    <div class="form-group">
-        <input type="hidden" asp-for = "dueno.Id" />
-        <label asp-for="dueno.Nombres"></label>
-        <input asp-for="dueno.Nombres" class="form-control">
-        <label asp-for="dueno.Apellidos"></label>
-        <input asp-for="dueno.Apellidos" class="form-control">
-        <label asp-for="dueno.Direccion"></label>
-        <input asp-for="dueno.Direccion" class="form-control">
-        <label asp-for="dueno.Telefono"></label>
-        <input asp-for="dueno.Telefono" class="form-control">
-        <label asp-for="dueno.Correo"></label>
-        <input asp-for="dueno.Correo" class="form-control">
+<form method="post"  class="form">
+   
+        <input type="hidden" asp-for = "dueno.Id" class="inputs"/>
+        <label asp-for="dueno.Nombres" class="label"></label>
+        <input asp-for="dueno.Nombres" class="inputs">
+        <label asp-for="dueno.Apellidos" class="label"></label>
+        <input asp-for="dueno.Apellidos" class="inputs">
+        <label asp-for="dueno.Direccion" class="label"></label>
+        <input asp-for="dueno.Direccion" class="inputs">
+        <label asp-for="dueno.Telefono" class="label"></label>
+        <input asp-for="dueno.Telefono" class="inputs">
+        <label asp-for="dueno.Correo" class="label"></label>
+        <input asp-for="dueno.Correo" class="inputs">
 
 
-        <button type="submit" class="btn btn-primary">Grabar</button>
-    </div>
+        <button type="submit" class="primary-button login-button">Guardar</button>
+    
 
 </form>
 </div>
 
-<a asp-page="./ListaDuenos" class="btn-default"> Lista de los Dueños </a>
 
 </body>
 
