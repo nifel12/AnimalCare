@@ -25,9 +25,8 @@
                         <div id="menu">
                             <ul>
                               
-                                <li id="item" ><a href="RegistroDueno.html">REGISTRO PROPIETARIO</a></li>
-                                <li id="item" ><a href="RegistroVeterinario.html">REGISTRO VETERINARIO</a></li>
-                                
+                                <li id="item" ><a asp-page="/Veterinarios/ListaVeterinarios">REGISTRO VETERINARIO</a></li>
+                                <li id="item" ><a asp-page="/Duenos/ListaDuenos">REGISTRO PROPIETARIO</a></li>
                             <li id="item"><a href="indexingreso.html">
                                 <i class="fas fa-address-book"></i>
                             </a></li>
@@ -39,7 +38,7 @@
                     <div class="contenedor">
 
                         <h1>BIENVENIDO AL REGISTRO DE LA MASCOTA</h1>
-                        <input type="button" value="Registrar" class="botonBanner">
+                        <a asp-page="./ListaMascotas" class="botonBanner"> Lista de las Mascotas </a>
                     </div>
                 </div>
             </section>
@@ -49,30 +48,30 @@
 
 
 <div class="login">
-<h2> REGISTRAR MASCOTA </h2>
+<h1> REGISTRAR MASCOTA </h1>
 
-<form method="post" >
-    <div class="form-group">
+<form method="post" class="form" >
+    
         <input type="hidden" asp-for = "mascota.Id" />
-        <label asp-for="mascota.Nombre"></label>
-        <input asp-for="mascota.Nombre" class="form-control">
-        <label asp-for="mascota.Color"></label>
-        <input asp-for="mascota.Color" class="form-control">
-        <label asp-for="mascota.Especie"></label>
-        <input asp-for="mascota.Especie" class="form-control">
-        <label asp-for="mascota.Raza"></label>
-        <input asp-for="mascota.Raza" class="form-control">
+        <label asp-for="mascota.Nombre" class="label"></label>
+        <input asp-for="mascota.Nombre" class="inputs">
+        <label asp-for="mascota.Color" class="label"></label>
+        <input asp-for="mascota.Color" class="inputs">
+        <label asp-for="mascota.Especie" class="label"></label>
+        <input asp-for="mascota.Especie" class="inputs">
+        <label asp-for="mascota.Raza" class="label"></label>
+        <input asp-for="mascota.Raza" class="inputs">
 
-        <label for="dueno">Dueño</label>
-        <select id="dueno" asp-for ="mascota.Dueno.Id" name = "duenoId">
+        <label for="dueno" class="label">Dueño</label>
+        <select class="inputse" id="dueno" asp-for ="mascota.Dueno.Id" name = "duenoId" >
             <option value="0">Seleccione un Dueño</option>
             @foreach (var dueno in Model.listaDuenos)
             {
                 <option value="@dueno.Id">@dueno.Nombres @dueno.Apellidos </option>
             }
         </select>
-        <label for="veterinario">Veterinario</label>
-        <select id="veterinario" asp-for ="mascota.Veterinario.Id" name = "veterinarioId">
+        <label for="veterinario" class="label">Veterinario</label>
+        <select  class="inputse" id="veterinario" asp-for ="mascota.Veterinario.Id" name = "veterinarioId" >
             <option value="0">Seleccione un Veterinario</option>
             @foreach (var veterinario in Model.listaVeterinarios)
             {
@@ -81,11 +80,11 @@
         </select>
 
 
-        <button type="submit" class="btn btn-primary">Grabar</button>
-    </div>
+        <button type="submit" class="primary-button login-button">Guardar</button>
+   
 
 </form>
 </div>
 
-<a asp-page="./ListaMascotas" class="btn-default"> Lista de las Mascotas </a>
+@* <a asp-page="./ListaMascotas" class="btn-default"> Lista de las Mascotas </a> *@
 </body>

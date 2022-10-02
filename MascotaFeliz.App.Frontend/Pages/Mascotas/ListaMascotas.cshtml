@@ -24,8 +24,8 @@
                         <div id="menu">
                             <ul>
                               
-                                <li id="item" ><a href="RegistroDueno.html">REGISTRO PROPIETARIO</a></li>
-                                <li id="item" ><a href="RegistroVeterinario.html">REGISTRO VETERINARIO</a></li>
+                                <li id="item" ><a asp-page="/Veterinarios/ListaVeterinarios">REGISTRO VETERINARIO</a></li>
+                                <li id="item" ><a asp-page="/Duenos/ListaDuenos">REGISTRO PROPIETARIO</a></li>
                                 
                             <li id="item"><a href="indexingreso.html">
                                 <i class="fas fa-address-book"></i>
@@ -38,8 +38,8 @@
                     <div class="contenedor">
 
                         <h1>BIENVENIDO AL REGISTRO DE LA MASCOTA</h1>
-                          <a class = "botonBanner" asp-page="./EditarMascotas" >Adicionar Mascota</a>
-
+                        <a class = "botonBanner" asp-page="./EditarMascotas" >Adicionar Mascota</a>
+                        @* <input type="button" value="Registrar" class="botonBanner"> *@
                     </div>
                 </div>
             </section>

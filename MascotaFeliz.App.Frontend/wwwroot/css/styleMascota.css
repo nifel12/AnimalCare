@@ -1,151 +1,148 @@
-body{
-    margin: 0px;
-    padding: 0px;
+
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
-
-
-
-
-
-.grid{
-    background-color:0;
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    gap:10px ;
-    overflow: hidden;
-    align-items: center;
+.grid {
+  background-color: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  gap: 10px;
+  overflow: hidden;
+  align-items: center;
 }
-.header{
-    background-color:0;
-    width: 100%;
-    grid-column: 1/-1;
-
+.header {
+  background-color: 0;
+  width: 100%;
+  grid-column: 1/-1;
 }
 
-
-
-
-
-
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
-.headercont{
-    position: relative;
-    z-index: 100;
-    grid-column: 1/-1;
-    width: 100%;
-    height: 60px;
-    display: flex;
-    background-color:0;
-    justify-content: space-between;
-    border-bottom: 1px solid #ffffff98 ;
-
+.headercont {
+  position: relative;
+  z-index: 100;
+  grid-column: 1/-1;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  background-color: 0;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff98;
 }
-.logo{
-    font-weight: 900;
-    font-size: 35px;
-    margin: 10px;
-    font-family: Cambria;
-    color: rgba(255, 255, 255, 0.658);
-    grid-column: 1/1;
-
+.logo {
+  font-weight: 900;
+  font-size: 35px;
+  margin: 10px;
+  font-family: Cambria;
+  color: rgb(255, 255, 255);
+  grid-column: 1/1;
 }
-#menu ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-#menu #item{
-    float: left;
-    
+#menu #item {
+  float: left;
 }
 
-#menu #item a{
-    background-color:#8892c600;
-    color: rgb(8, 8, 8);
-    padding: 30px ;
-    font-family: 'Bebas Neue', cursive;
-    width: 100%;
-    font-size: 20px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    height: 30px;
-    /*border-left: 1px solid #ffffff ;*/
-
+#menu #item a {
+  background-color: #8892c600;
+  color: rgba(255, 255, 255, 0.769);
+  padding: 30px;
+  font-family: "Bebas Neue", cursive;
+  width: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  /*border-left: 1px solid #ffffff ;*/
 }
-#menu #desple{
-    display: none;
+#menu #desple {
+  display: none;
 }
-#menu #item a:hover{
-    background-color: #ffffff21;
-    color: #141e5891;
-    display: flex;
-    align-items: center;
-}
-
-#menu #item:hover #desple{
-display: block;
+#menu #item a:hover {
+  background-color: #ffffff21;
+  color: #141e5891;
+  display: flex;
+  align-items: center;
 }
 
-
+#menu #item:hover #desple {
+  display: block;
+}
 
 
 
 
 .banner{
-    height: 85vh;
-    width: 100%;
-    margin-top: -195px;
-    position: relative;
-    background: url(../imagenes/weimaraner-g73741b24b_1920.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center ;
-    background-attachment: fixed;
-    grid-column: 1/-1;
+  height: 85vh;
+  width: 100%;
+  margin-top: -195px;
+  position: relative;
+  background: url(../imagenes/weimaraner-g73741b24b_1920.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-attachment: fixed;
+  grid-column: 1/-1;
 
 }
-.bannerDes{
-    position: relative;
-    text-align: center;
-    color: rgba(29, 27, 133, 0.733);
-    
-    transform: translateX(-50%) translateY(-50%);
-    top:50%;
-    left: 50%;
-    width: 100%;
-    font-size: 20px;
-    margin-top: 150px;
-    background-color: 0;
+.bannerDes {
+  position: relative;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.733);
 
-
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 150px;
+  background-color: 0;
 }
-.botonBanner{
-    background: rgba(29, 27, 133, 0.692);
-    border: none;
-    padding: 12px;
-    color: #fff;
-    font-size: 20px;
-    font-family: Cambria;
-    border-radius: 5px;
+.botonBanner {
+  background: rgb(29, 27, 133);
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-size: 20px;
+  font-family: Bebas Neue;
+  border-radius: 5px;
+  letter-spacing: 1px;
 }
-.botonBanner:hover{
-    border: 2px solid rgb(29, 27, 133);
-    background: none;
-    color:rgb(29, 27, 133);
+.botonBanner:hover {
+  color: #000;
+  transition: 0.5s;
 }
-h1{
-    font-family: 'Bebas Neue', cursive;
-    font-size:50px;
-    
+.maindeta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/*parte luis*/
+.detallediv{
+  width: 400px;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #141e58;
+  color: #141e58f4;
+  margin: 40px;
+  
+    margin-top: 30px;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+/*codigo luis*/
 :root {
   --white: #ffff;
   --black: #000;
@@ -174,6 +171,10 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 300px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
 }
 /* 
 .logo {
@@ -213,14 +214,15 @@ body {
 }
 
 .label {
-  font-size: var(--sm);
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 6px;
   margin-top: 10px;
+
 }
 
 .inputs {
-  background-color:rgba(145, 144, 144, 0.726) ;
+  background-color: rgba(145, 144, 144, 0.726);
   border: none;
   border-radius: 10px;
   height: 15px;
@@ -230,8 +232,19 @@ body {
   width: 80%;
   margin: auto;
 }
+.inputse {
+  background-color: rgba(145, 144, 144, 0.726);
+  border: none;
+  border-radius: 10px;
+  height: 25px;
+  font-size: var(--md);
+  padding: 10px;
+  margin-bottom: 12px;
+  width: 80%;
+  margin: auto;
+}
 .inputs2 {
-  background-color:rgba(212, 211, 211, 0.726) ;
+  background-color: rgba(212, 211, 211, 0.726);
   border: none;
   border-radius: 10px;
   height: 15px;
@@ -262,19 +275,21 @@ body {
   font-size: var(--md);
   font-weight: bold;
   margin: auto;
+  padding: 5px;
+  text-decoration: none;
 }
-.primary-button:hover{
+.primary-button:hover {
+  /* color: #000; */
+  transition: 0.5s;
+}
+#forgot:hover {
   color: #000;
-  transition: 1s;
+  transition: 0.5s;
 }
- #forgot:hover{
-    color: #000;
-    transition: 0.5s;
- }
 .secondary-button {
   background-color: white;
   border-radius: 8px;
-  border: 1px solid #0A122A;
+  border: 1px solid #0a122a;
   color: grey;
   width: 100%;
   cursor: pointer;
@@ -283,8 +298,8 @@ body {
   height: 50px;
   transition: 0.5s;
 }
-.secondary-button:hover{
-  color: #0A122A;
+.secondary-button:hover {
+  color: #0a122a;
   transition: 0.2s;
   padding: 10px;
   font-size: var(--lg);
@@ -294,35 +309,25 @@ body {
   margin-top: 14px;
   margin-bottom: 30px;
 }
-/*fin parte luis*/
 
+table {
+  margin-top: 50px;
+}
+/*fin codigo luis*/
 
-
-@media screen and (max-width:800px){
-    
-   .logo{
+@media screen and (max-width: 800px) {
+  .logo {
     font-size: 20px;
-  
-
+  }
+  #menu #item a {
+    font-size: 15px;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  [class^="fas fa"] {
+    font-size: 25px;
+  }
 }
-    #menu #item a{
-        
-        font-size: 15px;
-        justify-content: center;
 
-    }
-    h1{
-        font-size:30px;
-    }
-    [class^="fas fa"]{
-        font-size: 25px;
-        }
-
-
-
-
-
-
-
-
-}
