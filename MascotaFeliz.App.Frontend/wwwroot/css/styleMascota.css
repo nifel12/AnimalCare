@@ -243,6 +243,23 @@ a{
   width: 80%;
   margin: auto;
 }
+
+
+.form-control {
+  background-color: rgba(145, 144, 144, 0.726);
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  font-size: var(--md);
+  padding: 10px;
+  margin-bottom: 12px;
+  width: 80%;
+  margin: auto;
+}
+
+
+
+
 .inputs2 {
   background-color: rgba(212, 211, 211, 0.726);
   border: none;

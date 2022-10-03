@@ -64,7 +64,7 @@
         <input asp-for="mascota.Raza" class="inputs">
 
         <label for="dueno" class="label">Dueño</label>
-        <select class="inputse" id="dueno" asp-for ="mascota.Dueno.Id" name = "duenoId" >
+        <select class="form-control" id="dueno" asp-for ="mascota.Dueno.Id" name = "duenoId" >
             <option value="0">Seleccione un Dueño</option>
             @foreach (var dueno in Model.listaDuenos)
             {
@@ -72,7 +72,7 @@
             }
         </select>
         <label for="veterinario" class="label">Veterinario</label>
-        <select  class="inputse" id="veterinario" asp-for ="mascota.Veterinario.Id" name = "veterinarioId" >
+        <select  class="form-control" id="veterinario" asp-for ="mascota.Veterinario.Id" name = "veterinarioId" >
             <option value="0">Seleccione un Veterinario</option>
             @foreach (var veterinario in Model.listaVeterinarios)
             {

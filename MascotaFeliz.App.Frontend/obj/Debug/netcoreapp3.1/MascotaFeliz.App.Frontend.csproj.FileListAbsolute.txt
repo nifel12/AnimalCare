@@ -361,3 +361,6 @@ C:\AnimalCare\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App
 C:\Mascotasclon\animalcare\Mascotafeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriaClinica\DetallesHistoria.cshtml.g.cs
 C:\Mascotasclon\animalcare\Mascotafeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriaClinica\EditarHistoria.cshtml.g.cs
 C:\Mascotasclon\animalcare\Mascotafeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriaClinica\ListaHistoria.cshtml.g.cs
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriaClinica\DetallesHistoria.cshtml.g.cs
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriaClinica\EditarHistoria.cshtml.g.cs
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriaClinica\ListaHistoria.cshtml.g.cs
